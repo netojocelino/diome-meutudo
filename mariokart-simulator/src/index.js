@@ -1,11 +1,11 @@
-const characteres = require('./models/players');
-const {roundTypes} = require('./models/actions');
-const {
+import characteres from './models/players.js';
+import {roundTypes} from './models/actions.js';
+import {
     getRandomBlock,
     handlerTurn,
     leaderboard,
     rollDice,
-} = require('./utils');
+} from './utils.js';
 
 async function playRaceEngine(char1, char2)
 {

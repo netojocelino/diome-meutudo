@@ -54,4 +54,4 @@ const characteres = [
     },
 ];
 
-module.exports = characteres;
+export default characteres;

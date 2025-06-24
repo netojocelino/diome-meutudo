@@ -4,6 +4,6 @@ const roundTypes = [
     { type: 'battle', attribute: 'power' },
 ];
 
-module.exports = {
+export {
     roundTypes,
 }

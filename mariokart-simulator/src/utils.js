@@ -37,7 +37,6 @@ async function leaderboard(char1, char2)
         console.log(`🏆 ${char2.name} wins!`)
     } else {
         console.log(`🏆 Draws!`)
-
     }
 }
 
@@ -49,7 +48,7 @@ async function getRandomBlock (roundTypes = [])
     return result;
 }
 
-module.exports = {
+export {
     getRandomBlock,
     handlerTurn,
     leaderboard,
